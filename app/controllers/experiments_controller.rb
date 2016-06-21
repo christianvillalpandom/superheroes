@@ -1,4 +1,5 @@
 class ExperimentsController < ApplicationController
+  
   def page1
   end
 
@@ -7,4 +8,5 @@ class ExperimentsController < ApplicationController
 
   def page3
   end
+  
 end
