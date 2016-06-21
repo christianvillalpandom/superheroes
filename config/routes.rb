@@ -3,11 +3,13 @@ Rails.application.routes.draw do
 
   get 'pages/batman'
 
+  get 'pages/batman_vs_superman'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'pages#batman'
+  root 'pages#batman_vs_superman'
 
 
   # Example of regular route:

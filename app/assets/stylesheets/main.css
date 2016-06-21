@@ -17,6 +17,7 @@
 .titulo{
 	text-align: center;
 	color: green;
+	background:none!important;
 	font-size: 120px;
 	margin: 25% 0%;
 }
@@ -24,6 +25,23 @@
 .titulo2{
 	text-align: center;
 	color: pink;
+	background:none!important;
 	font-size: 120px;
 	margin: 25% 0%;
+}
+
+.divfondos{
+	margin: 0px;
+	padding: 0px;
+	height: 100%!important;
+}
+
+.fondos{
+	width: 100%!important;
+	height: 100%!important;
+}
+
+.link{
+	position: absolute;
+	margin: 100px 50px;
 }
