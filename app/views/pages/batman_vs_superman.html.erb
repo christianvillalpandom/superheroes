@@ -3,6 +3,14 @@
 	<a href="/pages/batman">BATMAN</a>
 	</div>
 	<%= image_tag 'img1.jpg', class:'fondos' %>
+	<div>
+		<form method="POST" action="<%= pages_guardar_voto_path %>">
+ 		<span>Heroe</span><input type="text" name="heroe"><br>
+ 		<span>Email</span><input type="text" name="email"><br>
+ 		<input type="submit"value="Enviar">
+ 		<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+		</form>
+	</div>
 </div>
 
 <div class="col-md-6 divfondos">
@@ -10,4 +18,12 @@
 	<a href="/pages/superman">SUPERMAN</a>
 	</div>
 	<%= image_tag 'img2.jpg', class:'fondos' %>
+	<div>
+		<form method="POST" action="<%= pages_guardar_voto_path %>">
+ 		<span>Heroe</span><input type="text" name="heroe"><br>
+ 		<span>Email</span><input type="text" name="email"><br>
+ 		<input type="submit"value="Enviar">
+ 		<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+		</form>
+	</div>
 </div>
